@@ -1,0 +1,182 @@
+
+
+@font-face 
+{
+    font-family: "Red_Hat_Display_Bold";
+    src: url(Red_Hat_Display/RedHatDisplay-Bold.ttf);
+}    
+
+@font-face 
+{
+    font-family: "Red_Hat_Display_SemiBold";
+    src: url(Red_Hat_Display/RedHatDisplay-SemiBold.ttf);
+}   
+
+ 
+@font-face
+{
+    font-family: "Red_Hat_Display";
+    src: url(Red_Hat_Display/RedHatDisplay-Italic-VariableFont_wght.ttf);
+    src: url(Red_Hat_Display/RedHatDisplay-VariableFont_wght.ttf);
+}
+
+body
+{
+    font-family: "Red_Hat_Display";
+    background-image: url(images/pattern-background-desktop.svg);
+    background-repeat: repeat-x;
+    background-color: hsl(225, 100%, 94%);
+}
+
+.center
+{
+    margin-block: auto;
+    background-color: white;
+    width: min-content;
+    margin :auto;
+    border-radius: 20px;
+    vertical-align: middle;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    box-shadow: 0px 6px 70px hsl(224, 23%, 55%);
+    
+
+}
+.text
+{
+    width: 80%;
+    margin: auto;
+}
+
+.image
+{
+    border-radius: 20px 20px 0px 0px;
+    width: 375px;
+}
+
+h1
+{
+    font-family: "Red_Hat_Display_Bold";
+    font-size: 27px;
+    text-align: center;
+}
+
+p
+{
+    color: hsl(224, 23%, 55%);
+    text-align: center;
+    margin-bottom: 20px;
+    font-size: 16px;
+}
+
+.link_change{
+    color: hsl(245, 75%, 52%);
+}
+.link_cancel
+{
+    color: hsl(224, 23%, 55%);
+    text-decoration: none; 
+}
+
+
+a:hover
+{
+    color : hsl(245, 66%, 61%);
+}
+
+.cancel
+{
+    font-family: "Red_Hat_Display_SemiBold";
+    color: hsl(245, 75%, 52%);
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    
+}
+.change
+{
+    font-family: "Red_Hat_Display_SemiBold";
+    text-decoration: underline;
+    color: hsl(245, 75%, 52%);
+    height: 50px;
+    vertical-align: middle;
+    line-height: 50px;
+    padding-left: 58px;
+}
+
+.amount
+{
+    color: hsl(224, 23%, 55%);
+}
+
+.price
+{
+    background-color: hsl(225, 100%, 98%);
+    display: flex;
+    padding-block: 15px;
+    border-radius: 10px;
+    margin-bottom: 30px;
+}
+
+.contents_span
+{
+    vertical-align: sub;
+}
+
+.annual_plan
+{
+    font-family: "Red_Hat_Display_SemiBold";
+}
+
+.logo_price
+{
+    display: flex;
+}
+
+.logo
+{
+    padding-left: 15px;
+    padding-right: 15px;
+}
+
+.payment
+ {
+    font-family: "Red_Hat_Display_SemiBold";
+    font-weight: 400;
+    background: hsl(245, 75%, 52%);
+    text-align: center;
+    margin: auto;
+    padding-block: 10px;
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0px 8px 50px hsl(224, 23%, 55%);
+} 
+.link_payment
+{
+    text-decoration: none;
+}
+.payment:hover{
+    background:hsla(245, 70%, 55%, 0.767);
+}
+
+
+@media screen and (max-width: 375px){
+
+    body{
+        background-image: url(images/pattern-background-mobile.svg);
+    }
+
+    .image{
+        width: 306px;
+    }
+
+    .price{
+        padding-block: 10px;
+    }
+    .text{
+        width: 270px;
+    }
+}
+    
+
